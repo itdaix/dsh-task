@@ -1,6 +1,10 @@
 # dsh-task · 定时任务插件
 
 给 DSH 加一个「定时任务」功能：按 CRON 表达式定时，把一句话自动发到指定的会话里，跑完记一笔日志。
+<img width="978" height="486" alt="image" src="https://github.com/user-attachments/assets/3ccc760d-79cd-4d08-b2c8-a780a818bfd4" />
+
+
+
 
 ## 能干什么
 
