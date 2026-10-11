@@ -1,0 +1,24 @@
+{
+  "name": "dsh-task",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH 定时任务插件（MVP）：按 CRON 向指定 SESSION 投递提示词，结果写入 JSONL 日志",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

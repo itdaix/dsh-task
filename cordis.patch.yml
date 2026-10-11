@@ -1,0 +1,6 @@
+# dsh-task 定时任务 bundle。
+# 可选配置（均有默认值）：timeoutMs / permissionPreset / approvalPolicy / catchUp / logSkipped。
+# 日志与配置路径由 index.js 用 import.meta.url 推导：.log/<日期>.jsonl 与 config.json 均在插件目录下。
+- insert:
+    - id: dsh-task
+      name: dsh-task
